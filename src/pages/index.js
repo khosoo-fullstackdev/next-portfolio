@@ -1,4 +1,8 @@
 import Portfolio from "./Portfolio";
 export default function Home() {
-  return <Portfolio />;
+  return (
+    <div className={"flex bg-red-800"}>
+      <Portfolio />
+    </div>
+  );
 }
