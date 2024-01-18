@@ -7,14 +7,16 @@ import Work from "@/components/Work";
 import Contactme from "@/components/Contactme";
 import Footer from "@/components/Footer";
 export default function Portfolio() {
-  <div className="Main">
-    <Header />
-    <Bio />
-    <About />
-    <Skills />
-    <Experience />
-    <Work />
-    <Contactme />
-    <Footer />
-  </div>;
+  return (
+    <div className="w-[1440px]">
+      <Header />
+      <Bio />
+      <About />
+      <Skills />
+      <Experience />
+      <Work />
+      <Contactme />
+      <Footer />
+    </div>
+  );
 }
