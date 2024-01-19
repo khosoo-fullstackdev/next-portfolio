@@ -6,7 +6,7 @@ export default function Experience() {
         <p className="w-[115px] h-7 px-5 py-1 bg-gray-200 rounded-xl justify-center items-center text-gray-600 text-sm font-medium ">
           Experience
         </p>
-        <p className="text-center text-gray-600 text-xl font-normal font-['Inter'] leading-77 pb-[48px]">
+        <p className="text-center text-gray-600 text-xl font-normal font-['Inter'] leading-7 pb-[48px]">
           Here is a quick summary of my most recent experiences:
         </p>
       </div>
