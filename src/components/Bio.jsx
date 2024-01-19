@@ -9,11 +9,11 @@ export default function Bio() {
     <div className="px-20 py-24">
       <div className=" w-[768px] h-[100%] self-stretch flex-col justify-center items-start gap-12 inline-flex ">
         <div className="gap-[48px]">
-          <div className="h-[152px] flex-col justify-center items-start gap-2 inline-flex">
+          <div className="self-stretch h-[152px] flex-col justify-center items-start gap-2 inline-flex">
             <p className="text-gray-900 text-6xl font-bold font-['Inter'] leading-[72px]">
               Hi, I’m Sagar 👋
             </p>
-            <p className="text-gray-600 text-base font-normal font-['Inter'] leading-normal">
+            <p className=" text-gray-600 text-base font-normal font-['Inter'] leading-normal">
               I'm a full stack developer (React.js & Node.js) with a focus on
               creating (and occasionally designing) exceptional digital
               experiences that are fast, accessible, visually appealing, and
@@ -23,16 +23,23 @@ export default function Bio() {
           </div>
           <div>
             <p className="text-gray-600 text-base font-normal font-['Inter'] leading-normal">
-              Ahmedabad, India
+              <LocationI /> Ahmedabad, India
             </p>
             <p className="text-gray-600 text-base font-normal font-['Inter'] leading-normal">
+              <Greendot />
               Available for new projects
             </p>
           </div>
           <div className="flex gap-[4px]">
-            <div className="w-6 h-6 relative"></div>
-            <div className="w-6 h-6 relative"></div>
-            <div className="w-6 h-6 relative"></div>
+            <div className="w-6 h-6 relative">
+              <GitI />
+            </div>
+            <div className="w-6 h-6 relative">
+              <TwitterI />
+            </div>
+            <div className="w-6 h-6 relative">
+              <FigmaI />
+            </div>
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ import Contactme from "@/components/Contactme";
 import Footer from "@/components/Footer";
 export default function Portfolio() {
   return (
-    <div className="w-[1440px]">
+    <div className="w-[1440px] m-auto">
       <Header />
       <Bio />
       <About />
