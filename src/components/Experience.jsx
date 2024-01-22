@@ -1,4 +1,4 @@
-import { Experiences } from "@/utilities/experience";
+import { Experiences } from "@/utilities/Experience";
 export default function Experience() {
   return (
     <div className="px-20 py-24 bg-gray-50 flex-col justify-center items-center">
@@ -10,21 +10,20 @@ export default function Experience() {
           Here is a quick summary of my most recent experiences:
         </p>
       </div>
-      <div className="flex flex-col gap-[48px] bg-gray-600">
+      <div className="flex flex-col items-center gap-[48px]">
         {Experiences.map((exp) => {
           return (
-            <div className=" flex gap-[48px] justify-between items-center relative">
-              <div className="w-[102px] h-7 left-0 top-0 absolute">
-                {exp.logo}
-              </div>
-              <div className="">
+            <div className=" flex justify-between w-[896px] h-[264px] p-8 bg-amber-200">
+              <div className="w-[102px] h-7 ">{exp.logo}</div>
+              <div className="w-96 text-xl font-semibold items-center font-['Inter'] leading-7">
                 <div className=" text-gray-900 text-xl font-semibold font-['Inter'] leading-7">
                   {exp.position}
                 </div>
-                <div className="text-gray-600 text-base font-normal font-['Inter'] leading-normal">
+                <div className="w-96 text-gray-600 text-base font-normal font-['Inter'] leading-normal">
                   {exp.experiences}
                 </div>
               </div>
+              <div>{exp.dates}</div>
             </div>
           );
         })}

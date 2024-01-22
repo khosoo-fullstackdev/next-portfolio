@@ -1,8 +1,9 @@
+import * as React from "react";
 export default function UpworkLogo() {
   return (
     <svg
-      width="102"
-      height="28"
+      width={102}
+      height={28}
       viewBox="0 0 102 28"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -11,12 +12,14 @@ export default function UpworkLogo() {
         <g id="Clip path group">
           <mask
             id="mask0_325_184"
-            style="mask-type:luminance"
+            style={{
+              maskType: "luminance",
+            }}
             maskUnits="userSpaceOnUse"
-            x="0"
-            y="0"
-            width="102"
-            height="28"
+            x={0}
+            y={0}
+            width={102}
+            height={28}
           >
             <g id="clip0_258_2">
               <path id="Vector" d="M102 0H0V28H102V0Z" fill="white" />
@@ -55,7 +58,7 @@ export default function UpworkLogo() {
       </g>
       <defs>
         <clipPath id="clip0_325_184">
-          <rect width="102" height="28" fill="white" />
+          <rect width={102} height={28} fill="white" />
         </clipPath>
       </defs>
     </svg>
