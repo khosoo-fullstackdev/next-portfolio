@@ -1,5 +1,5 @@
 import UpworkLogo from "./icons/logo-upwork";
-export const Experiences = [
+export const experiences = [
   {
     logo: <UpworkLogo />,
     position: "Sr. Frontend Developer",

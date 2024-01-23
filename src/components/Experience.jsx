@@ -1,4 +1,4 @@
-import { Experiences } from "@/utilities/Experience";
+import { experiences } from "@/utilities/experiences";
 export default function Experience() {
   return (
     <div className="px-20 py-24 bg-gray-50 flex-col justify-center items-center">
@@ -11,7 +11,7 @@ export default function Experience() {
         </p>
       </div>
       <div className="flex flex-col items-center gap-[48px]">
-        {Experiences.map((exp) => {
+        {experiences.map((exp) => {
           return (
             <div className=" flex justify-between w-[896px] h-[264px] p-8 bg-amber-200">
               <div className="w-[102px] h-7 ">{exp.logo}</div>
