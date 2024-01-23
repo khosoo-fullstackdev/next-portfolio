@@ -1,4 +1,4 @@
-export default function Themeicon() {
+export default function ThemeIcon() {
   return (
     <svg
       width="24"
