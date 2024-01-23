@@ -1,4 +1,4 @@
-import { experiences } from "@/utilities/experiences";
+import { experiences } from "@/utilities/Experience";
 export default function Experience() {
   return (
     <div className="px-20 py-24 bg-gray-50 flex-col justify-center items-center">
