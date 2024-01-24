@@ -1,22 +1,24 @@
 export default function nextjs() {
   return (
     <svg
-      width="65"
-      height="64"
+      width={65}
+      height={64}
       viewBox="0 0 65 64"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g id="icon-nextjs" clip-path="url(#clip0_316_285)">
+      <g id="icon-nextjs" clipPath="url(#clip0_316_285)">
         <g id="Mask group">
           <mask
             id="mask0_316_285"
-            style="mask-type:alpha"
+            style={{
+              maskType: "alpha",
+            }}
             maskUnits="userSpaceOnUse"
-            x="0"
-            y="0"
-            width="65"
-            height="64"
+            x={0}
+            y={0}
+            width={65}
+            height={64}
           >
             <g id="Group">
               <path
@@ -33,7 +35,7 @@ export default function nextjs() {
                 d="M32.4399 62.9333C49.5239 62.9333 63.3733 49.084 63.3733 32C63.3733 14.916 49.5239 1.06665 32.4399 1.06665C15.3559 1.06665 1.50659 14.916 1.50659 32C1.50659 49.084 15.3559 62.9333 32.4399 62.9333Z"
                 fill="black"
                 stroke="white"
-                stroke-width="6"
+                strokeWidth={6}
               />
               <path
                 id="Vector_3"
@@ -52,30 +54,30 @@ export default function nextjs() {
       <defs>
         <linearGradient
           id="paint0_linear_316_285"
-          x1="39.1954"
-          y1="41.4222"
-          x2="51.8177"
-          y2="57.0666"
+          x1={39.1954}
+          y1={41.4222}
+          x2={51.8177}
+          y2={57.0666}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="white" stop-opacity="0" />
+          <stop stopColor="white" />
+          <stop offset={1} stopColor="white" stopOpacity={0} />
         </linearGradient>
         <linearGradient
           id="paint1_linear_316_285"
-          x1="43.4622"
-          y1="19.2"
-          x2="43.3907"
-          y2="38"
+          x1={43.4622}
+          y1={19.2}
+          x2={43.3907}
+          y2={38}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="white" stop-opacity="0" />
+          <stop stopColor="white" />
+          <stop offset={1} stopColor="white" stopOpacity={0} />
         </linearGradient>
         <clipPath id="clip0_316_285">
           <rect
-            width="64"
-            height="64"
+            width={64}
+            height={64}
             fill="white"
             transform="translate(0.439941)"
           />

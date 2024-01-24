@@ -8,8 +8,9 @@ export default function Home() {
     setTheme(theme == "Light" ? "Dark" : "Light");
   };
 
+  const rootBg = theme == "bg-white" ? "bg-black" : "bg-white";
   return (
-    <div className="flex bg-white">
+    <div className={`flex ${rootBg}`}>
       <Portfolio />
     </div>
   );

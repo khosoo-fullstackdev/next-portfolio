@@ -35,7 +35,10 @@ export default function Header() {
         </p>
         <div className="w-6 h-[0px] -rotate-90 border border-gray-100"></div>
         <div className="flex items-center gap-[15px]">
-          <button className="w-9 h-9 p-1.5 rounded-lg justify-center items-center inline-flex ">
+          <button
+            className="w-9 h-9 p-1.5 rounded-lg justify-center items-center"
+            onClick={changeThemeHandler}
+          >
             <ThemeIcon />
           </button>
           <button className="text-gray-50 font-medium font-Inter leading-normal  w-[136px] h-9 px-4 py-1.5 bg-gray-900 rounded-xl justify-center items-center gap-2 inline-flex">
