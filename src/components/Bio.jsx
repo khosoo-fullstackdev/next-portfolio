@@ -57,7 +57,7 @@ export default function Bio() {
       <div className="w-[400px] h-[100%] flex justify-center items-center relative">
         <div className="absolute"></div>
         <Image
-          class="absolute w-[280px] h-80 border-8 border-white"
+          className="absolute w-[280px] h-80 border-8 border-white"
           width={280}
           height={320}
           src="/Pic.png"
