@@ -4,7 +4,13 @@ import Greendot from "./icons/Greendot";
 import GitI from "./icons/GitI";
 import FigmaI from "./icons/FigmaI";
 import Image from "next/image";
+import { useTheme } from "@/context/ThemeContext";
 export default function Bio() {
+  const { theme, setTheme } = useTheme();
+
+  changeThemHadler = () => {
+    setTheme(theme == "Light" ? "Dark" : "Light");
+  };
   return (
     <div className="h-[552px] flex justify-between px-20 py-24">
       <div className=" w-[768px] h-[100%] px-8 self-stretch flex-col justify-center items-start gap-12 inline-flex ">

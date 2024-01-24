@@ -1,7 +1,14 @@
 import ThemeIcon from "@/components/icons/ThemeIcon";
+import { useTheme } from "@/context/ThemeContext";
+
 export default function Header() {
+  const { theme, setTheme } = useTheme();
+
+  changeThemHadler = () => {
+    setTheme(theme == "Light" ? "Dark" : "Light");
+  };
   return (
-    <div className="flex justify-between items-center bg-white py-[16px] px-[80px] ">
+    <div className="flex justify-between items-center py-[16px] px-[80px] ">
       <div className="h-left ">
         <p
           className={

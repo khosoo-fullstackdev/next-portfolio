@@ -4,7 +4,13 @@ import Phone from "@/utilities/icons/contact/phone";
 import GitI from "./icons/GitI";
 import FigmaI from "./icons/FigmaI";
 import TwitterI from "./icons/TwitterI";
+import { useTheme } from "@/context/ThemeContext";
 export default function Contactme() {
+  const { theme, setTheme } = useTheme();
+
+  changeThemHadler = () => {
+    setTheme(theme == "Light" ? "Dark" : "Light");
+  };
   return (
     <div class="h-[560px] px-20 py-24 bg-white flex-col justify-center items-center flex gap-12">
       <div class="flex flex-col justify-center items-center gap-4">

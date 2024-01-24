@@ -1,5 +1,11 @@
 import Image from "next/image";
+import { useTheme } from "@/context/ThemeContext";
 export default function About() {
+  const { theme, setTheme } = useTheme();
+
+  changeThemHadler = () => {
+    setTheme(theme == "Light" ? "Dark" : "Light");
+  };
   return (
     <div className="flex flex-col gap-12 px-20 py-24 bg-gray-50 justify-between items-center">
       <div className="text-gray-600 text-sm font-medium font-Inter leading-tight w-[110px] h-7 px-5 py-1 bg-gray-200 rounded-xl justify-center items-center">

@@ -1,5 +1,11 @@
 import { skills } from "@/utilities/skills";
+import { useTheme } from "@/context/ThemeContext";
 export default function Skills() {
+  const { theme, setTheme } = useTheme();
+
+  changeThemHadler = () => {
+    setTheme(theme == "Light" ? "Dark" : "Light");
+  };
   return (
     <div className="flex flex-col px-20 py-24 w-[100%] justify-center items-center ">
       <div className="flex flex-col justify-center items-center gap-[16px]">
