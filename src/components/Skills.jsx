@@ -6,7 +6,7 @@ export default function Skills() {
         <p class="text-gray-600 text-sm font-medium  w-[75px] h-7 px-5 py-1 flex bg-gray-200 rounded-xl ">
           Skills
         </p>
-        <p className="w-[576px] text-center text-gray-600 text-xl font-normal font-['Inter'] leading-7 pb-[48px]">
+        <p className="w-[576px] text-center text-gray-600 text-xl font-normal font-Inter leading-7 pb-[48px]">
           The skills, tools and technologies I am really good at:
         </p>
       </div>

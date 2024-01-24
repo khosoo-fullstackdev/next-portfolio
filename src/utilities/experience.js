@@ -1,4 +1,4 @@
-import UpworkLogo from "./icons/logo-upwork";
+import UpworkLogo from "./icons/skills/logo-upwork";
 export const experiences = [
   {
     logo: <UpworkLogo />,

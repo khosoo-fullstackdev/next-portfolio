@@ -6,14 +6,14 @@ import FigmaI from "./icons/FigmaI";
 import Image from "next/image";
 export default function Bio() {
   return (
-    <div className="px-20 py-24">
-      <div className=" w-[768px] h-[100%] self-stretch flex-col justify-center items-start gap-12 inline-flex ">
-        <div className="gap-[48px]">
+    <div className="h-[552px] flex justify-between px-20 py-24">
+      <div className=" w-[768px] h-[100%] px-8 self-stretch flex-col justify-center items-start gap-12 inline-flex ">
+        <div className="flex flex-col gap-[48px]">
           <div className="self-stretch h-[152px] flex-col justify-center items-start gap-2 inline-flex">
-            <p className="text-gray-900 text-6xl font-bold font-['Inter'] leading-[72px]">
+            <p className="text-gray-900 text-6xl font-bold font-Inter leading-[72px]">
               Hi, I’m Sagar 👋
             </p>
-            <p className=" text-gray-600 text-base font-normal font-['Inter'] leading-normal">
+            <p className=" text-gray-600 text-base font-normal font-Inter leading-normal">
               I'm a full stack developer (React.js & Node.js) with a focus on
               creating (and occasionally designing) exceptional digital
               experiences that are fast, accessible, visually appealing, and
@@ -22,13 +22,18 @@ export default function Bio() {
             </p>
           </div>
           <div>
-            <p className="text-gray-600 text-base font-normal font-['Inter'] leading-normal">
-              <LocationI /> Ahmedabad, India
-            </p>
-            <p className="text-gray-600 text-base font-normal font-['Inter'] leading-normal">
-              <Greendot />
-              Available for new projects
-            </p>
+            <div className="text-gray-600 flex text-base h-6 items-center gap-2 font-normal font-Inter leading-normal">
+              <div>
+                <LocationI />
+              </div>{" "}
+              <p>Ahmedabad, India</p>
+            </div>
+            <div className="text-gray-600 text-base flex h-6 items-center gap-2 font-normal font-Inter leading-normal">
+              <div className="w-6 flex items-center justify-center">
+                <Greendot />
+              </div>
+              <p>Available for new projects</p>
+            </div>
           </div>
           <div className="flex gap-[4px]">
             <div className="w-6 h-6 relative">
@@ -43,13 +48,16 @@ export default function Bio() {
           </div>
         </div>
       </div>
-      {/* <Image
-    class="w-[280px] h-80 relative border-8 border-white"
-    width={280}
-    height={320}
-    src="/icons/sagar.jpg"
-    alt=""
-    /> */}
+      <div className="w-[400px] h-[100%] flex justify-center items-center relative">
+        <div className="absolute"></div>
+        <Image
+          class="absolute w-[280px] h-80 border-8 border-white"
+          width={280}
+          height={320}
+          src="/Pic.png"
+          alt=""
+        />
+      </div>
     </div>
   );
 }

@@ -1,1 +1,62 @@
-export const work = [{}, {}, {}, {}, {}, {}];
+export const work = [
+  {
+    image: "/workImage.png",
+    workTitle: "Fiskil",
+    workDescription:
+      " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+    workSkills: [
+      "React",
+      "Next.js",
+      "Typescript",
+      "Nest.js",
+      "PostgreSQL",
+      "Tailwindcss",
+      "Figma",
+      "Cypress",
+      "Storybook",
+      "Git",
+    ],
+    workIcon: "/icon-more.png",
+    id: "normal",
+  },
+  {
+    image: "/workImage.png",
+    workTitle: "Fiskil",
+    workDescription:
+      " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+    workSkills: [
+      "React",
+      "Next.js",
+      "Typescript",
+      "Nest.js",
+      "PostgreSQL",
+      "Tailwindcss",
+      "Figma",
+      "Cypress",
+      "Storybook",
+      "Git",
+    ],
+    workIcon: "/icon-more.png",
+    id: "reverse",
+  },
+  {
+    image: "/workImage.png",
+    workTitle: "Fiskil",
+    workDescription:
+      " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+    workSkills: [
+      "React",
+      "Next.js",
+      "Typescript",
+      "Nest.js",
+      "PostgreSQL",
+      "Tailwindcss",
+      "Figma",
+      "Cypress",
+      "Storybook",
+      "Git",
+    ],
+    workIcon: "/icon-more.png",
+    id: "normal",
+  },
+];
