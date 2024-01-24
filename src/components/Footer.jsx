@@ -3,7 +3,7 @@ import { useTheme } from "@/context/ThemeContext";
 export default function Footer() {
   const { theme, setTheme } = useTheme();
 
-  changeThemHadler = () => {
+  const changeThemeHandler = () => {
     setTheme(theme == "Light" ? "Dark" : "Light");
   };
 

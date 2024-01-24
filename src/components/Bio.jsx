@@ -8,7 +8,7 @@ import { useTheme } from "@/context/ThemeContext";
 export default function Bio() {
   const { theme, setTheme } = useTheme();
 
-  changeThemHadler = () => {
+  const changeThemeHandler = () => {
     setTheme(theme == "Light" ? "Dark" : "Light");
   };
   return (

@@ -4,7 +4,7 @@ import { useTheme } from "@/context/ThemeContext";
 export default function Home() {
   const { theme, setTheme } = useTheme();
 
-  changeThemHadler = () => {
+  const changeThemeHandler = () => {
     setTheme(theme == "Light" ? "Dark" : "Light");
   };
 

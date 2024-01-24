@@ -4,9 +4,10 @@ import { useTheme } from "@/context/ThemeContext";
 export default function Header() {
   const { theme, setTheme } = useTheme();
 
-  changeThemHadler = () => {
+  const changeThemeHandler = () => {
     setTheme(theme == "Light" ? "Dark" : "Light");
   };
+
   return (
     <div className="flex justify-between items-center py-[16px] px-[80px] ">
       <div className="h-left ">

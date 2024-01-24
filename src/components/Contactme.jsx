@@ -8,7 +8,7 @@ import { useTheme } from "@/context/ThemeContext";
 export default function Contactme() {
   const { theme, setTheme } = useTheme();
 
-  changeThemHadler = () => {
+  const changeThemeHandler = () => {
     setTheme(theme == "Light" ? "Dark" : "Light");
   };
   return (
