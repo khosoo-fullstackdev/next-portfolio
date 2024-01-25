@@ -7,7 +7,7 @@ export default function Skills() {
     setTheme(theme == "Light" ? "Dark" : "Light");
   };
   return (
-    <div className="flex flex-col px-20 py-24 w-[100%] justify-center items-center ">
+    <div className="flex flex-col px-20 py-24 w-[100%] m-auto justify-center items-center ">
       <div className="flex flex-col justify-center items-center gap-[16px]">
         <p class="text-gray-600 text-sm font-medium  w-[75px] h-7 px-5 py-1 flex bg-gray-200 rounded-xl ">
           Skills
@@ -16,7 +16,7 @@ export default function Skills() {
           The skills, tools and technologies I am really good at:
         </p>
       </div>
-      <div className="flex flex-wrap gap-[72px] items-center">
+      <div className="flex flex-wrap m-auto gap-[72px] items-center">
         {skills.map((a) => {
           return (
             <div className="flex w-[88px] h-[100px] flex-col justify-center items-center gap-2">
